@@ -1,21 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation Manel</title>
 </head>
 <body>
-    <h1>Manel Ben Halima </h1>
-    <h2>Étudiande en développement web</h2>
-    <p> Designer graphique passionné par la création visuelle, je transforme les idées en expériences graphiques percutantes. En parallèle, j’étudie la programmation pour allier créativité et technologie. Mon ambition est de concevoir des solutions numériques innovantes où le design et le développement se complètent. </p>
-    <ul>
-        <li> créativité  </li>
-        <li> gestion de projet </li>
-        <li> attention aux détails </li>
-    </ul>
-    <img src="Photo.jpg" alt="photo montage: soleil + paysage de montagne" width="85%">
+
+        <nav class="crumbs">
+        <ul>
+            <li class="crumb"><a href="#Mission 1">Présentation</a></li>
+            <li class="crumb"><a href="#Mission 2">Formulaire</a></li>
+            <li class="crumb"><a href="#Mission 3">Lorem Ipsum</a></li>
+        </ul>
+    </nav>
+
     <br>
-    <a href="https://unsplash.com/fr/photos/oeuvre-dart-contemporain-design-creatif-dans-un-style-retro-coucher-de-soleil-fascinant-sur-les-montagnes-avec-lac-nature-incroyable-ete-concept-de-creativite-surrealisme-imagination-paysage-futuriste-affiche-iaGaCYVcw38" target="_blank"> lien vers la photo </a>
+    <br>
+    <div id="Mission 1">
+        <h1>Manel Ben Halima </h1>
+        <br>
+        
+        <h2>Étudiande en développement web</h2>
+        <p> Designer graphique passionné par la création visuelle, je transforme les idées en expériences graphiques percutantes. En parallèle, j’étudie la programmation pour allier créativité et technologie. Mon ambition est de concevoir des solutions numériques innovantes où le design et le développement se complètent. </p>
+        <ul>
+            <li> Créativité  </li>
+            <li> Gestion de projet </li>
+            <li> Attention aux détails </li>
+        </ul>
+        <img src="Photo.jpg" alt="photo montage: soleil + paysage de montagne" width="60%">
+        <br>
+        <br>
+        <a href="https://unsplash.com/fr/photos/oeuvre-dart-contemporain-design-creatif-dans-un-style-retro-coucher-de-soleil-fascinant-sur-les-montagnes-avec-lac-nature-incroyable-ete-concept-de-creativite-surrealisme-imagination-paysage-futuriste-affiche-iaGaCYVcw38" target="_blank"> lien vers la photo </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <div id="Mission 2">
+        <br>
+        <label for="name">Nom</label>
+        <input type="text" id="name"/>
+        <br>
+        <br>
+        <label for="email">Courriel</label>
+        <input type="email" id="email" pattern=" .+@exemple/.com" required />
+        <br>
+        <br>
+        <label for="color-select">Couleur préférée</label>
+        <select name="color" id="color-select"><option value="">--Choisir une couleur</option>
+            <option value="rouge">rouge</option>
+            <option value="jaune">jaune</option>
+            <option value="rose"> rose</option>    
+        </select>
+
+        <br>
+        <br>
+        <label>Plat(s) préféré(s) </label>
+        <select name="plat" multiple size="4">
+            <optgroup>
+                <option value="Spagheti">Spagheti</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Poutine">Poutine</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Animal préféré</legend>
+
+                <input type="radio" id="Chat" name="monster" value="C"/>
+                <label for="Chat">Chat</label> <br />
+
+                <input type="radio" id="Chien" name="monster" value="H"/>
+                <label for="Chien">Chien</label> <br />
+
+                <input type="radio" id="Perruche" name="monster" value="P"/>
+                <label for="Perruche">Perruche</label> <br />
+
+            </fieldset>
+
+        </form>
+        <br>
+        <br>
+        <label for="story">Commentaires</label>
+        <textarea id="story" name="story" rows="5" cols="33">
+        </textarea>
+        <br>
+        <br>
+
+        </form>
+        <form>
+            <div class="controls">
+                <input type="reset" value="Réinitialiser" />
+                <input type="submit" value="Envoyer" />
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+
+    
+
+
+    <div id="Mission 3" >
+        <div>
+            <p>
+                What is Lorem Ipsum? <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+                but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+                when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+                Letraset's Body Type sheets. It has survived not only many decades,
+            </p>
+        </div>
+        <div>
+        <p>
+            Why do we use it? <br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+            making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+            and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+            sometimes on purpose (injected humour and the like).
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+        
+        </p>
+        </div>
+        <div>
+        <p>
+            Where does it come from?<br> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+             from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
+             and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
+             very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+            It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+            when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for 
+            Letraset's Body Type sheets. It has survived not only many decades,
+            but also the leap into electronic typesetting, remaining essentially unchanged. 
+
+        </p>
+        </div>
+    </div>
+
 </body>
+
 </html>    
