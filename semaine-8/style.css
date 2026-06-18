@@ -1,0 +1,25 @@
+/* Structure index*/
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    height: 30%;
+    display: flex;
+    gap: 20px;
+  
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+gap: 50px;
+   
+}
+
+#intro{
+
+}

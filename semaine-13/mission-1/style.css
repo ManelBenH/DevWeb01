@@ -60,3 +60,9 @@ img {
 a {
     color: #1F4C9E;
 }
+
+#Mission3 > div > p{
+
+text-align: justify;
+
+}
