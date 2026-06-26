@@ -1,0 +1,89 @@
+:root {
+  /* COULEURS PRINCIPALES */
+  --couleur-texte:        #3D2B1F;
+  --couleur-accent:       #C4622D;
+  --couleur-secondaire:   #2E5E4E;
+  --couleur-fond:         #F5F0E8;
+  --couleur-blanc:        #FFFFFF;
+
+  /* COULEURS DE SUPPORT */
+  --couleur-fond-alt:     #F2E8DC;
+  --couleur-texte-doux:   #7A4A2E;
+  --couleur-bordure:      #E8D5C4;
+  --couleur-sombre:       #1A1A18;
+
+  /* TYPOGRAPHIES */
+  --typo-titre:   'NOM-POLICE-TITRES', serif;
+  --typo-corps:   'NOM-POLICE-CORPS', sans-serif;
+}
+header a img {
+  width:60px ;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+header a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.hero{
+  background:linear-gradient( to top, rgba(46, 94, 78, 0.7), rgba(255, 255, 255, 0)), url(images/photo-paysage-boreal.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+
+  display: flex;
+  align-items: end;
+  margin-bottom: 100px;
+}
+.hero-contenu{
+  padding: 5%;
+  color: #E8D5C4;
+}
+    
+.hero h1 {
+  font-family:"Montserrat", sans-serif;
+  font-size: 6vw;
+  font-style: normal;
+  color: #E8D5C4;
+
+}
+
+.hero p{
+  font-family: "Fanwood Text", serif;
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.bouton-cta{
+  text-decoration: none;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 600;
+  border: 0;
+  line-height: 2.5;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 1px;
+  background-color: #2E5E4E;
+}
+
+.grille-sevice{
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-auto-rows: 10 vw;
+}

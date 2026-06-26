@@ -1,0 +1,55 @@
+img {
+    border-radius: 20px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 90%;
+}
+
+h2{
+    font-size: 28px;
+    margin: 50px;
+}
+
+p, h4 {
+    margin: 0;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+.exercice{
+
+    display: flex;
+    /*margin: 20px;*/
+
+}
+
+
+.grille {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.single-card {
+    background-color: rgb(234, 223, 223);
+    padding: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.345);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 200px;
+    max-width: 300px;
+
+}
+.Yvonne{
+    object-fit: cover;
+    object-position: 0 0;
+    transform: scale(1.2);
+
+}
